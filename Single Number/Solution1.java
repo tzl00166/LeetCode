@@ -1,5 +1,7 @@
 class Solution {
-    public int singleNumber(int[] nums) {     
+    public int singleNumber(int[] nums) {
+        
+        // Stupidest way, loops in loops
         int i = 0;
         int j = 0;
         while (i < nums.length){
