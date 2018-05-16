@@ -1,5 +1,6 @@
 class Solution {
     public double myPow(double x, int n) {
+		// if n is MIN_VALUE, then it cannot be saved as n = -n, out of range
         long N = n;
         if(N < 0 && x != 0){
             x = 1/x;
